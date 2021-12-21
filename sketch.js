@@ -13,7 +13,7 @@ function draw() {
 	background(225);
 	push();
 	image(colorWheel, 10, 20);
-	getColor = colorWheel.get(mouseX, mouseY);
+	getColor = colorWheel.get(mouseX-10, mouseY-20);
 
 	push();
 	//stroke(getColor[0], getColor[1], getColor[2]);
