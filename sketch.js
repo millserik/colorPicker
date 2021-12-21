@@ -34,6 +34,11 @@ function draw() {
 	textAlign(CENTER, CENTER);
 	textStyle(BOLD);
 	text(getColor.slice(0,3), width * 0.75, height * 0.65);
+    r = hex(getColor[0],2)
+    g = hex(getColor[1],2)
+    b = hex(getColor[2],2)
+    hx = '#' + r + g + b
+    text(hx, width * 0.75, height * 0.8);
 	pop();
 
 
